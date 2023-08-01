@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Twitter Clone</title>
+</head>
+<body>
+  <h1>Simple Twitter Clone</h1>
+  <form id="userForm">
+    <h2>ユーザー登録</h2>
+    <label for="name">名前:</label>
+    <input type="text" id="name" required>
+    <label for="profile">プロフィール:</label>
+    <input type="text" id="profile" required>
+    <button type="submit">登録</button>
+  </form>
+  <form id="tweetForm">
+    <h2>ツイート作成</h2>
+    <label for="tweetMessage">メッセージ:</label>
+    <input type="text" id="tweetMessage" required>
+    <button type="submit">ツイート</button>
+  </form>
+  <div id="tweetList">
+    <!-- ツイートが表示される領域 -->
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
